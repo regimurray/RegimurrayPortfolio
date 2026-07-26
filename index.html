@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teaching Portfolio · Dr. Regina Murray · ENG 1005</title>
+<meta name="description" content="A teaching portfolio for ENG 1005: Writing About Mystery, Suspense, and Thriller — teaching statement, syllabus, signature assignments, projects, and a reflection on AI and pedagogy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1730'/%3E%3Ccircle cx='14' cy='14' r='7' fill='none' stroke='%23e0a850' stroke-width='2.4'/%3E%3Cline x1='19.2' y1='19.2' x2='25' y2='25' stroke='%23e0a850' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{--midnight:#0b1730;--cobalt:#12294d;--panel:#0e2138;--panel-2:#132c4a;--amber:#e0a850;--brass:#c8823c;--parchment:#f2ead9;--ink:#e9edf5;--muted:#9fb0c8;--line:rgba(224,168,80,.22);--line-soft:rgba(159,176,200,.18);--radius:16px;--shadow:0 24px 60px -30px rgba(0,0,0,.8);}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0;min-height:100vh;font-family:"Inter",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased;background:radial-gradient(900px 420px at 78% -8%,rgba(224,168,80,.14) 0%,transparent 60%),radial-gradient(1100px 700px at 12% 4%,rgba(45,88,150,.30) 0%,transparent 55%),linear-gradient(178deg,#0a1428 0%,#0b1730 42%,#0e2340 100%);background-attachment:fixed;}
+a{color:var(--amber);}
+.wrap{max-width:900px;margin:0 auto;padding:0 clamp(16px,4vw,28px);}
+.narrow{max-width:760px;margin:0 auto;}
+/* nav */
+.site-nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:12px clamp(16px,4vw,40px);background:rgba(7,16,32,.82);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+.site-nav .brand{display:inline-flex;align-items:center;gap:10px;font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:1.02rem;color:#f2ead9;text-decoration:none;margin-right:auto;}
+.site-nav .brand svg{width:22px;height:22px;flex:0 0 auto;}
+.site-nav .brand b{color:var(--amber);font-weight:600;}
+.site-nav .links{display:flex;flex-wrap:wrap;gap:2px;align-items:center;}
+.site-nav .links a{font-size:.85rem;font-weight:500;color:#b8c6db;text-decoration:none;padding:7px 11px;border-radius:999px;transition:.15s;white-space:nowrap;}
+.site-nav .links a:hover{color:#f2ead9;background:rgba(224,168,80,.12);}
+.site-nav .links a.exam{color:#0b1730;background:var(--amber);font-weight:600;}
+/* eyebrow, rules, headings */
+.eyebrow{display:inline-block;font-size:.74rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin-bottom:14px;}
+.hairline{width:70px;height:1px;background:var(--line);border:0;margin:22px 0;}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.15;color:#fff;}
+/* hero */
+.hero{position:relative;overflow:hidden;padding:clamp(52px,10vw,104px) 0 clamp(30px,6vw,56px);}
+.hero::before{content:"";position:absolute;top:-120px;right:-80px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle at 50% 50%,rgba(224,168,80,.30),rgba(224,168,80,.05) 55%,transparent 70%);filter:blur(6px);pointer-events:none;}
+.hero h1{font-size:clamp(2.2rem,6vw,3.7rem);margin:0 0 18px;letter-spacing:.4px;}
+.hero h1 .accent{color:var(--amber);font-style:italic;}
+.hero .tagline{font-size:clamp(1.05rem,2.4vw,1.26rem);color:var(--muted);max-width:640px;margin:0;}
+.hero .byline{margin-top:24px;font-size:.96rem;color:var(--parchment);}
+.hero .byline b{color:#fff;font-weight:600;}
+/* section */
+.section{padding:clamp(30px,6vw,54px) 0;border-top:1px solid var(--line-soft);scroll-margin-top:70px;}
+.section>.eyebrow{margin-bottom:8px;}
+.section h2{font-size:clamp(1.5rem,3.5vw,2.05rem);margin:0 0 14px;}
+.section h3{font-size:1.15rem;color:var(--amber);margin:26px 0 8px;}
+.lead{color:var(--muted);font-size:1.05rem;max-width:700px;}
+.section p{color:var(--parchment);margin:0 0 16px;}
+.section ul{color:var(--parchment);margin:0 0 18px;padding-left:1.2em;}
+.section li{margin:0 0 8px;}
+.section blockquote{margin:20px 0;padding:12px 20px;border-left:3px solid var(--amber);background:rgba(224,168,80,.07);color:var(--ink);font-style:italic;border-radius:0 10px 10px 0;}
+.card-box{background:linear-gradient(180deg,var(--panel),var(--panel-2));border:1px solid var(--line-soft);border-radius:var(--radius);padding:clamp(22px,4vw,34px);margin:18px 0;box-shadow:var(--shadow);}
+.card-box h3:first-child{margin-top:0;}
+/* table */
+.tbl{width:100%;border-collapse:collapse;margin:8px 0 22px;font-size:.94rem;}
+.tbl th,.tbl td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line-soft);color:var(--parchment);}
+.tbl th{color:var(--amber);font-weight:600;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;}
+.tbl td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+/* pills + buttons */
+.pill-row{display:flex;flex-wrap:wrap;gap:9px;margin:16px 0 0;}
+.pill{font-size:.8rem;font-weight:500;color:var(--muted);background:rgba(159,176,200,.1);border:1px solid var(--line-soft);padding:6px 13px;border-radius:999px;}
+.pill b{color:var(--amber);font-weight:600;}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 4px;}
+.dl{display:inline-flex;align-items:center;gap:9px;text-decoration:none;background:linear-gradient(135deg,var(--amber),var(--brass));color:#0b1730;font-weight:600;font-size:.92rem;padding:12px 20px;border-radius:999px;transition:.16s;box-shadow:0 12px 26px -12px rgba(224,168,80,.6);}
+.dl:hover{transform:translateY(-2px);}
+.dl svg{width:17px;height:17px;}
+.works-cited p{color:var(--muted);font-size:.9rem;text-indent:-1.2em;padding-left:1.2em;margin-bottom:10px;}
+.draft-banner{display:flex;gap:12px;align-items:flex-start;background:rgba(224,168,80,.12);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 24px;color:var(--parchment);font-size:.92rem;}
+.draft-banner b{color:var(--amber);}
+.site-foot{text-align:center;font-size:.82rem;color:rgba(226,232,240,.6);padding:40px 20px 48px;line-height:1.7;border-top:1px solid var(--line-soft);}
+.site-foot .rule{width:60px;height:1px;background:var(--line);margin:0 auto 18px;border:0;}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="brand" href="#top">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#0b1730"/><circle cx="14" cy="14" r="7" fill="none" stroke="#e0a850" stroke-width="2.4"/><line x1="19.2" y1="19.2" x2="25" y2="25" stroke="#e0a850" stroke-width="2.8" stroke-linecap="round"/></svg>
+    ENG 1005 · <b>Portfolio</b>
+  </a>
+  <div class="links">
+    <a href="#statement">Teaching Statement</a>
+    <a href="#syllabus">Syllabus</a>
+    <a href="#signature">Signature Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#reflection">Reflection</a>
+    <a class="exam" href="https://regimurray.github.io/English1005/" target="_blank" rel="noopener">Exam ↗</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <span class="eyebrow">A Teaching Portfolio</span>
+    <h1>Writing About <span class="accent">Mystery,<br>Suspense &amp; Thriller</span></h1>
+    <p class="tagline">Course materials, classroom experiments, and a reflection on teaching writing in the age of AI — built for ENG 1005 at Florida Southern College.</p>
+    <p class="byline">by <b>Dr. Regina Murray, Ed.D.</b></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="lead" style="padding-bottom:8px;">This portfolio gathers a semester's work in one place: a statement of what I believe about teaching, the syllabus that frames the course, the signature assignments students build toward, the smaller experiments where we tested what AI can and cannot do with a story, and an honest reflection on how all of it changed the way I think about AI and pedagogy. The interactive grammar exam lives on its own student site and is linked throughout.</p>
+
+  <!-- TEACHING STATEMENT -->
+  <section class="section" id="statement">
+    <span class="eyebrow">Philosophy</span>
+    <h2>Teaching Statement</h2>
+    <p>Real learning, in my experience, comes from doing rather than listening. That is why some of the best moments in my courses come when my students are the ones teaching, playing, or creating. The research bears this out. Johnson and Salter concluded that it is the process of making a game, not the sophistication of the finished product, that teaches students. Scott Freeman and his colleagues also found that students in active classrooms outperform those who mainly sit and listen, and they fail far less often.</p>
+    <p>When planning a course, I start with what I want students to be able to do: make and defend an argument, read closely, and write clear prose. Then I build every assignment toward those goals, an approach drawn from Wiggins and McTighe's <em>Understanding by Design</em>. In my Writing about Mystery, Suspense, and Thriller course, the research project is the clearest case, as it moves students from an annotated bibliography to a full argument to a live defense.</p>
+    <p>Students arrive in my class at very different starting points, and I plan for that. Because their writing improves through drafting and revising, I keep much of that work in the classroom, through free writing, peer review, and conferences. That way, I can spot who is struggling early and step in before a small gap becomes a failing grade.</p>
+    <p>For their presentations, I have students build on their own interests, talents, and media of choice, which makes the work more enjoyable and meaningful. When a student tells me they cannot think of anything they are good at or interested in, we discuss it, and almost every time, we find something together. The problem is usually not ability but confidence, something I start building from day one.</p>
+    <p>Realizing that digital tools already shape how students learn, and wanting to understand them better, I took a course on the challenges and opportunities generative AI poses in the humanities classroom. Now I know how to build my own quizzes and other digital activities. I also have a clearer grasp of the ethics behind AI usage and can explain them to my students. Digital training keeps an English educator current, offering, as Hopwood and Roberts argue, not just technical skill but the critical awareness that how a tool is built shapes what it can and cannot do.</p>
+    <p>One resource I built is an online quiz that lets students drill sentence mechanics on their own; another is an assignment in which they use AI openly to see where it helps and where it fails in the close reading of book excerpts. This matters greatly in a humanities course. As Dan Cohen puts it, these tools should support human reading, not replace it.</p>
+    <p>More than any one skill, I want my classes to build the ability to communicate across cultures. As Fernando Reimers argues in <em>Educating Students to Improve the World</em>, teaching young people to understand those unlike themselves is essential at every level. Course goals matter, but this is what I most want for my students: to feel safe being themselves and to leave the class more curious, open-minded, and capable than when they arrived.</p>
+    <h3>Works Cited</h3>
+    <div class="works-cited">
+      <p>Cohen, Dan. "AI and Libraries, Archives, and Museums, Loosely Coupled." <em>Humane Ingenuity</em>, 18 Aug. 2025.</p>
+      <p>Freeman, Scott, et al. "Active Learning Increases Student Performance in Science, Engineering, and Mathematics." <em>Proceedings of the National Academy of Sciences</em>, vol. 111, no. 23, 2014, pp. 8410–8415.</p>
+      <p>Hopwood, Elizabeth, and Kyle Roberts. "What's the Value of a Graduate Digital Humanities Degree?" <em>What We Teach When We Teach DH</em>, University of Minnesota Press, 2024.</p>
+      <p>Johnson, Emily K., and Anastasia Salter. "Designing Playfully for a Distant Future." <em>Playful Pedagogy in the Pandemic</em>, Routledge, 2022.</p>
+      <p>Reimers, Fernando M. <em>Educating Students to Improve the World</em>. Springer, 2020.</p>
+      <p>Wiggins, Grant, and Jay McTighe. <em>Understanding by Design</em>. Expanded 2nd ed., ASCD, 2005.</p>
+    </div>
+  </section>
+
+  <!-- SYLLABUS -->
+  <section class="section" id="syllabus">
+    <span class="eyebrow">The Course · Fall 2026</span>
+    <h2>Syllabus</h2>
+    <p class="lead">ENG 1005 · Writing About Mystery, Suspense, and Thriller · Florida Southern College</p>
+    <div class="pill-row">
+      <span class="pill"><b>4</b> credit hours</span>
+      <span class="pill">Tue &amp; Thu · <b>2:00–3:45 p.m.</b></span>
+      <span class="pill">Christoverson 208</span>
+      <span class="pill">Gen Ed: <b>EC-A</b></span>
+    </div>
+    <div class="card-box">
+      <h3>Course Description</h3>
+      <p>Writing About Mystery, Suspense, and Thriller engages students intellectually and imaginatively while developing their writing skills as they explore what makes mystery, crime, and suspense writing work. Formal research is part of the course, and students read and discuss Agatha Christie's <em>And Then There Were None</em> alongside distributed essays and public-domain excerpts.</p>
+      <h3>Course Objectives</h3>
+      <ul>
+        <li>Analyze how mystery, crime, and suspense texts create tension, misdirection, and surprise.</li>
+        <li>Compose organized, thesis-driven essays in several modes: narrative, expository, summary-response, and argumentative.</li>
+        <li>Construct a documented, evidence-based argument, citing sources correctly in MLA style.</li>
+        <li>Apply the conventions of standard written English to produce clear, error-free prose.</li>
+        <li>Revise through prewriting, peer review, drafting, editing, and proofreading.</li>
+        <li>Evaluate the strengths and limitations of AI writing tools and account for their use in a clear AI Use Statement.</li>
+        <li>Deliver an engaging oral presentation supported by an effective visual aid.</li>
+      </ul>
+      <h3>Grading</h3>
+      <table class="tbl">
+        <thead><tr><th>Assignment</th><th class="num">Percent</th></tr></thead>
+        <tbody>
+          <tr><td>Narrative Essay (mostly in class)</td><td class="num">5</td></tr>
+          <tr><td>Expository Essay</td><td class="num">5</td></tr>
+          <tr><td>Summary-Response Essay</td><td class="num">5</td></tr>
+          <tr><td>Final Exam Essay (exams week)</td><td class="num">5</td></tr>
+          <tr><td><em>And Then There Were None</em> reading questions</td><td class="num">10</td></tr>
+          <tr><td>Student-Led Grammar Lesson</td><td class="num">10</td></tr>
+          <tr><td>Sentence Structure, Grammar &amp; Mechanics Exam</td><td class="num">10</td></tr>
+          <tr><td>Argumentative Research Essay (with bibliography, presentation &amp; questions)</td><td class="num">35</td></tr>
+          <tr><td>Class Attendance / Participation</td><td class="num">15</td></tr>
+          <tr><td style="color:#fff;font-weight:600;">Total</td><td class="num" style="color:#e0a850;font-weight:700;">100</td></tr>
+        </tbody>
+      </table>
+      <h3>AI Policy</h3>
+      <p>This is a writing course. Its purpose is to make students stronger thinkers, readers, researchers, and writers. AI tools can help with that — they cannot do it for the student. The approach is built on honesty and curiosity, not prohibition. Each assignment is marked with one of three levels:</p>
+      <ul>
+        <li><strong>Level 1 — AI-Free:</strong> in-class writing, reading questions, the Grammar and Mechanics Exam, and the Final Exam Essay.</li>
+        <li><strong>Level 2 — Draft It Yourself:</strong> AI may brainstorm, explain a rule, test an argument, or give feedback on a draft the student already wrote — but not write the words submitted.</li>
+        <li><strong>Level 3 — Open Use:</strong> AI can help broadly, including drafting, as long as the final work reflects the student's own understanding.</li>
+      </ul>
+      <p>Every major assignment includes a short <strong>AI Use Statement</strong>. "I did not use AI on this assignment" is a complete and welcome answer.</p>
+    </div>
+  </section>
+
+  <!-- SIGNATURE -->
+  <section class="section" id="signature">
+    <span class="eyebrow">Signature Work</span>
+    <h2>Signature Assignments</h2>
+    <div class="card-box">
+      <span class="eyebrow" style="margin-bottom:4px;">Built with Claude Code</span>
+      <h3 style="color:#fff;">The Interactive Grammar &amp; Mechanics Exam</h3>
+      <p>I turned a traditional paper grammar test into a browser-based exam students take online. It grades itself instantly and reports a section-by-section breakdown. Every question is grounded in the mystery and thriller genre we study, so students practice sentence structure, punctuation, and mechanics using the kind of prose they read and write in this course. I developed it with Claude Code as a multi-file web app over many commits; the answer key is stored only as salted hashes, never exposed in the page.</p>
+      <div class="pill-row">
+        <span class="pill"><b>49</b> questions</span><span class="pill"><b>10</b> sections</span><span class="pill">Auto-graded</span><span class="pill">One attempt · locked</span>
+      </div>
+      <div class="btn-row">
+        <a class="dl" href="https://regimurray.github.io/English1005/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Open the live exam ↗
+        </a>
+      </div>
+      <p style="font-size:.86rem;color:var(--muted);margin-top:8px;">The exam, the auto-graded practice quiz, and the study materials (cheat sheet, study guide) live on the student site at regimurray.github.io/English1005.</p>
+    </div>
+    <div class="card-box">
+      <span class="eyebrow" style="margin-bottom:4px;">35% of the course grade</span>
+      <h3 style="color:#fff;">The Argumentative Research Project</h3>
+      <p>For the final project, students choose a debate-worthy question about crime, mystery, or suspense writing, research it, and build a clear, well-supported argument. They share it in two forms — a written argumentative essay and a live presentation in which they answer questions from classmates — and gather sources in an annotated bibliography, with help from a visiting librarian.</p>
+      <table class="tbl">
+        <thead><tr><th>Component</th><th class="num">% of project</th><th class="num">% of course</th></tr></thead>
+        <tbody>
+          <tr><td>Annotated Bibliography</td><td class="num">17%</td><td class="num">7%</td></tr>
+          <tr><td>Argumentative Essay</td><td class="num">50%</td><td class="num">15%</td></tr>
+          <tr><td>Presentation, Visual Aid &amp; Q&amp;A</td><td class="num">23%</td><td class="num">10%</td></tr>
+          <tr><td>Engagement (notes + question)</td><td class="num">10%</td><td class="num">3%</td></tr>
+          <tr><td style="color:#fff;font-weight:600;">Total</td><td class="num" style="color:#e0a850;font-weight:700;">100%</td><td class="num" style="color:#e0a850;font-weight:700;">35%</td></tr>
+        </tbody>
+      </table>
+      <p>To model a strong talk, I built a sample presentation — <em>"The Work Worth Doing: Gaudy Night as a Feminist Manifesto"</em> — that states a clear thesis, gives each reason its own slide, voices the strongest objection, and answers it.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <span class="eyebrow">Classroom Experiments</span>
+    <h2>Projects with AI</h2>
+    <p class="lead">Two activities I built to let students test what AI can and cannot do with a story — reading it, and picturing it.</p>
+    <div class="card-box">
+      <h3 style="color:#fff;">Inside the Reader's Head</h3>
+      <p>Suspense lives in what a reader knows, suspects, and fears from moment to moment. Students first read a passage like a detective — one beat at a time, recording what a first-time reader knows, suspects, is afraid of, and how tense they feel (1–10). Then they hand the same passage to an AI, prompting it to react like a first-time reader, and compare: where did the AI match, and where did it miss a feeling a human caught? Passages come from David Baldacci, James Patterson — and one of my own.</p>
+      <blockquote>The point isn't that the AI is right or wrong. It's that comparing readings makes students articulate <em>how</em> suspense actually works on a reader — knowledge they can carry into their own writing.</blockquote>
+    </div>
+    <div class="card-box">
+      <h3 style="color:#fff;">Book-Cover Visual Analysis</h3>
+      <p>Students strip the type off a mystery or thriller book cover and ask Claude to analyze only the image — subject, style, color, mood — across the decades: the 1902 <em>Hound of the Baskervilles</em>, the 1939 <em>And Then There Were None</em>, and a present-day cover. Claude caught things I had missed (the Baskervilles hound is a deliberate featureless void), yet mistook what a building meant and missed a recurring motif. And generating a cover took fifteen-plus tries, forgetting instructions and changing details on its own.</p>
+      <blockquote>What it taught me: you have to be extremely specific, and even then the tool will forget what you told it and change things on its own. That lesson is worth as much to a student as the analysis itself.</blockquote>
+    </div>
+  </section>
+
+  <!-- REFLECTION -->
+  <section class="section" id="reflection">
+    <span class="eyebrow">Looking Back</span>
+    <h2>Reflection</h2>
+    <div class="draft-banner"><span>✎</span><span><b>Draft for revision.</b> A first-person starter grounded in the real work of this semester — written to give me something to rewrite in my own voice, not a finished statement.</span></div>
+    <p>When I started this course, I expected to come away either a convert or a skeptic about AI in the writing classroom. Instead I came away something more useful: specific. I no longer think about "AI and teaching" in the abstract. I think about particular tasks, particular tools, and particular moments where a tool helped a student think — or quietly did the thinking for them.</p>
+    <p>Most of what I built this semester, I built by doing, which is exactly what I ask of my students. The interactive grammar exam and the practice quiz did not arrive in one tidy piece. I worked with Claude Code the way I'd coach a student through a draft: a rough version first, then revision after revision — hiding the answer key behind hashes, splitting the exam from the practice quiz, redesigning the results screen — each change its own small commit. Planning first and giving specific direction about structure and style mattered more than any single prompt. The value was in the process of making the thing, not in the polish of the finished product.</p>
+    <p>The two smaller experiments taught me the most, because they were designed to find the edges. In <em>Inside the Reader's Head</em>, my students and I read suspense passages one beat at a time and then asked an AI to do the same. The AI is fluent, but it tends to read like a critic who already knows the ending, not like a first-time reader holding her breath. Naming that gap — out loud, together — did more to teach how suspense works than any lecture I could give.</p>
+    <p>The book-cover analysis cut both ways in a single sitting. Claude noticed things I had genuinely missed; then, when I tried to have it generate a cover, it forgot my instructions and wore me out after fifteen tries. Impressive and maddening at once. That, too, is teachable — because "be specific, and check everything" is a habit of mind, not just an AI tip.</p>
+    <p>So has this changed how I think about the relationship between AI and pedagogy? Honestly, it confirmed more than it overturned. I already believed, with Dan Cohen, that these tools should support human reading, not replace it, and everything I built pushed in that direction — activities where the AI is a foil, a second reader, a rough-draft machine whose work a human still has to judge. What changed is my confidence: I can now build the digital activities myself, explain the ethics behind them, and show students exactly where the tool is strong and where it falls down. My AI policy stays what it was — honesty over prohibition, three clear levels, an AI Use Statement on every major assignment — but now I can teach it from experience rather than principle alone.</p>
+    <p>If anything, the semester made me more protective of the parts of writing that are stubbornly human: the held breath at the end of a paragraph, the argument a student defends out loud when no AI can whisper the next line. Those are still the point. The tools just make me better at getting my students there.</p>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <hr class="rule">
+  ENG 1005 · Writing About Mystery, Suspense &amp; Thriller<br>
+  A teaching portfolio by Dr. Regina Murray · Florida Southern College · Fall 2026
+</footer>
+</body>
+</html>
